@@ -34,6 +34,17 @@ main{
   background-position: 6%;
 }
 
+h1{
+  font-size: 30px;
+  max-width: 50%;
+  letter-spacing: 5px;
+}
+
+h2{
+  color: var(--h1-blue);
+  letter-spacing: 2px;
+}
+
 .container{
   display: grid;
   gap: 10px;
@@ -55,28 +66,6 @@ main{
   clip-path: circle(45% at 45% 45%);
 }
 
-h1{
-  font-size: 30px;
-  max-width: 50%;
-  letter-spacing: 5px;
-}
-
-h2{
-  color: var(--h1-blue);
-  letter-spacing: 2px;
-}
-
-.p{
-  font-size: 13px;
-  letter-spacing: 3px;
-  margin-top: 2%;
-}
-
-.contact{
-  margin-top: 50%;
-  margin-top: 45%;
-}
-
 .about, .contact{
   font-size: 12px;
   max-width: 70%;
@@ -93,23 +82,35 @@ h2{
   letter-spacing: 2px;
 }
 
-.direita{
+.contact{
+  margin-top: 50%;
+  margin-top: 45%;
+}
+
+/* Lado direito */
+.right{
   font-size: 11px;
+}
+
+.p{
+  font-size: 13px;
+  letter-spacing: 3px;
+  margin-top: 2%;
 }
 
 .line{
   margin-top: 6%;
 }
 
-.historico{
+.historic{
   margin-top: 10%;
   line-height: 170%;
 }
 
-.school, .curso, .fatec{
+.school, .course, .fatec{
   margin-top: 6%;
 }
 
-.tecnologia{
+.technology{
   margin-top: 10%;
 }
