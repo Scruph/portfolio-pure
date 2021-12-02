@@ -48,7 +48,6 @@ main{
   position: relative;
 }
 
-
 .avatar > img{
   width: 8rem;
   height: 11.5rem;
@@ -57,11 +56,20 @@ main{
 }
 
 h1{
-  font-size: 32px;
+  font-size: 30px;
+  max-width: 50%;
+  letter-spacing: 5px;
 }
 
 h2{
-  color: var(--h1-blue)
+  color: var(--h1-blue);
+  letter-spacing: 2px;
+}
+
+.p{
+  font-size: 13px;
+  letter-spacing: 3px;
+  margin-top: 2%;
 }
 
 .contact{
@@ -83,4 +91,25 @@ h2{
 
 .about h3, .contact h2{
   letter-spacing: 2px;
+}
+
+.direita{
+  font-size: 11px;
+}
+
+.line{
+  margin-top: 6%;
+}
+
+.historico{
+  margin-top: 10%;
+  line-height: 170%;
+}
+
+.school, .curso, .fatec{
+  margin-top: 6%;
+}
+
+.tecnologia{
+  margin-top: 10%;
 }
