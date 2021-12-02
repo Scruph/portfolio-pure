@@ -43,13 +43,13 @@ main{
 
 .avatar{
   width: 10rem;
-  margin-top: 10%;
-  margin-left: 26%;
+  margin-top: -4%;
+  margin-left: 21.5%;
   position: relative;
 }
 
 .avatar > img{
-  width: 10rem;
+  width: 8rem;
   height: 11.5rem;
   object-fit: cover;
   clip-path: circle(50% at 50% 50%);
