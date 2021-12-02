@@ -34,6 +34,17 @@ main{
   background-position: 6%;
 }
 
+h1{
+  font-size: 30px;
+  max-width: 50%;
+  letter-spacing: 5px;
+}
+
+h2{
+  color: var(--h1-blue);
+  letter-spacing: 2px;
+}
+
 .container{
   display: grid;
   gap: 10px;
@@ -48,25 +59,11 @@ main{
   position: relative;
 }
 
-
 .avatar > img{
   width: 8rem;
   height: 11.5rem;
   object-fit: cover;
   clip-path: circle(45% at 45% 45%);
-}
-
-h1{
-  font-size: 32px;
-}
-
-h2{
-  color: var(--h1-blue)
-}
-
-.contact{
-  margin-top: 50%;
-  margin-top: 45%;
 }
 
 .about, .contact{
@@ -83,4 +80,41 @@ h2{
 
 .about h3, .contact h2{
   letter-spacing: 2px;
+}
+
+.contact{
+  margin-top: 50%;
+  margin-top: 45%;
+}
+
+/* Lado direito */
+.right{
+  font-size: 11px;
+}
+
+.p{
+  font-size: 13px;
+  letter-spacing: 3px;
+  margin-top: 2%;
+}
+
+.line{
+  margin-top: 6%;
+}
+
+.historic{
+  margin-top: 10%;
+  line-height: 170%;
+}
+
+.school, .course, .fatec{
+  margin-top: 6%;
+}
+
+.fatec{
+  margin-bottom: 9%;
+}
+
+.technology{
+  margin-top: 3%;
 }
