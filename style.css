@@ -30,7 +30,7 @@ main{
   height: 43rem;
   border-radius: .375rem;
   box-shadow: inset 0 0 0.1em, 0 0 1em rgba(255, 255, 255, 0.322);
-  background: url('./images/mobile.svg') no-repeat;
+  background: url('./images/desktop.svg') no-repeat;
   background-position: 6%;
 }
 
@@ -83,7 +83,6 @@ h2{
 }
 
 .contact{
-  margin-top: 50%;
   margin-top: 45%;
 }
 
@@ -117,4 +116,45 @@ h2{
 
 .technology{
   margin-top: 3%;
+}
+
+@media (max-width: 600px){
+  main{
+    width: 20rem;
+    height: 86.6rem;
+    margin: auto;
+    background: url('./images/mobile.svg') no-repeat;
+    background-position:center 2%;
+  }
+  .container{
+    grid-template-columns: 1fr;
+  }
+  body{
+    display: block;
+  }
+  .avatar{
+    margin-top: 7.5%;
+    margin-left: 29%;
+  }
+  .about, .contact{
+    max-width: 70%;
+    padding-left: 15%;
+    line-height: 150%;
+  }
+  .about{
+    margin-top: 15%;
+  }
+  .contact{
+    margin-top: 47%;
+    margin-bottom: 15%;
+  }
+  h1, .p{
+    text-align: center;
+  }
+  h1{
+    margin-left: 25%;
+  }
+  .line{
+    margin-left: -2%;
+  }
 }
